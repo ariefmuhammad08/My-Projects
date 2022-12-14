@@ -1,0 +1,19 @@
+kafka/kafka_2.13-3.3.1
+
+# run zookepeer
+bin/zookeeper-server-start.sh config/zookeeper.properties
+
+# run kafka server(broker)
+bin/kafka-server-start.sh config/server.properties
+
+# create topic
+# topic name TopicCurrency
+bin/kafka-topics.sh --create --topic TopicCurrency --bootstrap-server localhost:9092
+
+/e/final-project-local/kafka
+
+# run producer
+python3 producer.py
+
+# run consumer
+python3 consumer.py

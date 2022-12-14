@@ -1,0 +1,5 @@
+# dump data
+spark-submit --jars /e/final-project-local/spark/driver/mysql-connector-java-8.0.30.jar --name example_job /e/final-project-local/spark/dumpdata.py
+
+# import data
+spark-submit --jars /e/final-project-local/spark/driver/postgresql-42.5.1.jar,/e/final-project-local/spark/driver/mysql-connector-java-8.0.30.jar --name example_job /e/final-project-local/spark/importdata.py

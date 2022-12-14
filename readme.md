@@ -5,3 +5,4 @@
 - Project 3 - sql
 - Project 4 - mapreduce
 - Project 5 - airflow
+- Project 6 - kafka

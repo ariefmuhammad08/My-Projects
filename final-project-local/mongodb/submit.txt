@@ -1,0 +1,2 @@
+# dumb data
+python3 /e/final-project-local/mongodb/dumpdata.py
